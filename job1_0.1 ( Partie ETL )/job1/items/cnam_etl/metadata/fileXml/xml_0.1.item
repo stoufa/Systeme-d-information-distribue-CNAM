@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_aEBaQCwWEee7YKd9mETYEg" name="xml" dataPackage="_aEBaSiwWEee7YKd9mETYEg" XmlFilePath="C:/Users/User.ASUS/Desktop/fichxml.xml" Encoding="UTF-8" fileContent="3C42533E200D0A3C4D6174726963756C653E313535203C2F4D6174726963756C653E200D0A3C4E756D42733E20313131343C2F4E756D42733E0D0A3C4E6F6D4D656463696E3E2079617373696E3C2F4E6F6D4D656463696E3E0D0A3C4D6174726963756C654D656463696E3E6D65643030313C2F4D6174726963756C654D656463696E3E0D0A3C446174653E2032312F30352F3230313720202020203C2F446174653E0D0A3C48657572653E313420202020203C2F48657572653E0D0A3C506861726D616369654D6174726963756C653E2070683030323C2F506861726D616369654D6174726963756C653E0D0A3C546F74616C653E20313030302020203C2F546F74616C653E0D0A3C2F42533E">
+    <schema xmi:id="_aEBaQSwWEee7YKd9mETYEg" LimitBoucle="50" AbsoluteXPathQuery="/BS">
+      <schemaTargets xmi:id="_aEBaQiwWEee7YKd9mETYEg" RelativeXPathQuery="Matricule" TagName="Matricule"/>
+      <schemaTargets xmi:id="_aEBaQywWEee7YKd9mETYEg" RelativeXPathQuery="NumBs" TagName="NumBs"/>
+      <schemaTargets xmi:id="_aEBaRCwWEee7YKd9mETYEg" RelativeXPathQuery="Totale" TagName="Totale"/>
+      <schemaTargets xmi:id="_aEBaRSwWEee7YKd9mETYEg" RelativeXPathQuery="NomMedcin" TagName="NomMedcin"/>
+      <schemaTargets xmi:id="_aEBaRiwWEee7YKd9mETYEg" RelativeXPathQuery="PharmacieMatricule" TagName="PharmacieMatricule"/>
+      <schemaTargets xmi:id="_aEBaRywWEee7YKd9mETYEg" RelativeXPathQuery="Heure" TagName="Heure"/>
+      <schemaTargets xmi:id="_aEBaSCwWEee7YKd9mETYEg" RelativeXPathQuery="Date" TagName="Date"/>
+      <schemaTargets xmi:id="_aEBaSSwWEee7YKd9mETYEg" RelativeXPathQuery="MatriculeMedcin" TagName="MatriculeMedcin"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aEBaSiwWEee7YKd9mETYEg" name="default" dataManager="_aEBaQCwWEee7YKd9mETYEg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aED2gCwWEee7YKd9mETYEg" id="_IaqW4CwWEee7YKd9mETYEg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aED2gSwWEee7YKd9mETYEg" label="Matricule" length="4" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aED2giwWEee7YKd9mETYEg" label="NumBs" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aED2gywWEee7YKd9mETYEg" label="Totale" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aED2hCwWEee7YKd9mETYEg" label="NomMedcin" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aED2hSwWEee7YKd9mETYEg" label="PharmacieMatricule" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aED2hiwWEee7YKd9mETYEg" label="Heure" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aED2hywWEee7YKd9mETYEg" label="Date" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aED2iCwWEee7YKd9mETYEg" label="MatriculeMedcin" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
